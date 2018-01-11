@@ -1,0 +1,33 @@
+@import "fonts.css";
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+a.card{
+
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+a.card:first-child {
+  margin-top: 20px !important;
+}
+a.card:last-child {
+  margin-bottom: 0px !important;
+}
+.blog-posts{
+  padding: 20px 10%;
+}
+.navbar-toggler{
+  border: none !important;
+}
+.navbar-toggler:focus {
+  outline: none !important;
+}
+.navbar {
+  font-family: "Roboto", sans-serif;
+}

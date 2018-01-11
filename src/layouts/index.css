@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300');
+body {
+  background-color: #fefefe;
+}
+.bg-light {
+  background-color: transparent !important;
+}
+.footer {
+  position: fixed;
+  transition: bottom 0.2s ease-in-out;
+  width: 100%;
+  padding: 5px 5%;
+  background-color: rgba(254,254,254,0.5);
+
+}
+.nav-wrap {
+  height: 100%;
+  padding: 2px 5%;
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container-fluid {
+  padding: 0px !important;
+}
+.nav-down{
+    bottom: 0;
+}
+.nav-up {
+  bottom: -45px;
+}
+.card-body {
+  background-color: #fff;
+}
+.card {
+  box-shadow: none !important;
+  border-radius: 0px;
+  border: 1px #ddd solid;
+
+}
+.card:hover {
+  box-shadow: none !important;
+}
+.body-2.card-body {
+  border-top: 1px solid #ddd;
+}
+.blog-post-heading {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.blog-post-date {
+  text-align: center;
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+.blog-post-body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 21px;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+
+}

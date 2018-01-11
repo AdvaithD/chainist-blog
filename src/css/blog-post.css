@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+@import 'fonts.css';
+body {
+
+}
+.blog-post-container.container-fluid {
+  padding: 40px 25% !important;
+}
+.blog-post > h1 {
+  margin-bottom: 10px;
+}
+.blog-post > h6 {
+
+}
+.blog-post-content > p {
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 20px;
+  font-family: 'Source Serif Pro';
+  color: #333;
+  font-size: 21px;
+}
+@media (max-width: 768px) {
+  .blog-post-container.container-fluid {
+    padding: 40px 15% !important;
+  }
+}
+@media (max-width: 768px) {
+  .blog-post-container.container-fluid {
+    padding: 40px 10% !important;
+  }
+}
+.blog-post-content-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+p.my-5.blog-post-content-date {
+  margin-top: 0px !important;
+  margin-bottom: 50px !important;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
